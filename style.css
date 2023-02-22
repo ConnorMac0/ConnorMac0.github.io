@@ -1,18 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif', serif;
+    color: white;
 }
 
 html{
     height: 100%;
     margin: auto;
-    background-color: #6F4E37;
+    background-color: #372C2E;
     position: relative;
 }
 
 header{
     margin: auto;
-    background-color: #FEEBCA;
+    background-color: #563727;
     position: relative;
+}
+
+.intro{
+    display: inline-block;
+    position: relative;
+    background-color: black;
 }

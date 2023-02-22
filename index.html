@@ -1,14 +1,81 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-wdith, inital-scale=1.0">
         <title>Connor Maclachlan Portfolio</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Connor MacLachlan</h1>
+            <div class="logo">devconnor</div>
+            <button class="nav-toggle" aria-label="navigation toggle">
+                <span class="hambuger"></span>
+            </button>
+            <nav>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Socials</a></li>
+                </ul>
+            </nav>
         </header>
+
+        <!--Introduction-->
+
+        <section class="intro" id="home">
+            <h1 class="intro__section_title">
+                Hi, I'm <strong>Connor Maclachlan</strong>
+            </h1>
+            <p class="intro__section_subtitle">Student And Future Fullstack Dev</p>
+            <img src="img/pfp.png" alt="a picture of Connor Maclachlan" style="width:150px;height:175px;">>
+        </section>
+
+        <!--About Me-->
+
+        <section class="about-me" id="about">
+            <h2 class="about__section_title">Who I Am</h2>
+            <p class="about__section_subtitle"></p>
+            <div class="about__section_body">
+                <p></p>
+                <p></p>
+            </div>
+        </section>
+
+        <!--Projects-->
+
+        <section class="my-Projects" id="projects">
+            <h2 class="projects__section_title">My Projects</h2>
+            <div class="projects">
+
+                <!--Project 1-->
+                <div class="project">
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <!--Project 2-->
+                <div class="project">
+                    <h3></h3>
+                    <p></p>
+                </div>
+
+                <!--Project 3-->
+                <div class="project">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <a href="https://github.com/ConnorMac0" class="btn">GitHub</a>
+        </section>
+
+        <!--Footer-->
+
+        <footer>
+            <a href="mailto:connormac000@gmail.com" class="foot__link">connormac000@gmail.com</a>
+        </footer>
     </body>
 </html>
