@@ -195,6 +195,9 @@ nav{
     text-decoration: none;
  }
 
+.project-body{
+    padding: 4px;
+}
  /* Footer */
 
  footer{
